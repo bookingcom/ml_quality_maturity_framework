@@ -1,0 +1,17 @@
+[run]
+source = ml_quality
+omit =
+    .tox/*
+    ml_quality/__init__.py
+    ml_quality/ml_quality/tests/*
+    ml_quality/ml_quality/__init__.py
+    ml_quality/setup.py
+    ml_quality/ml_quality/_version.py
+    ml_quality/fix_conflicts.py
+    practice_prioritization/**/__init__.py
+    tests/__init__.py
+[report]
+show_missing = True
+
+exclude_lines =
+    if __name__ == .__main__.:
