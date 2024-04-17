@@ -1,0 +1,40 @@
+characteristic,sub_characteristic,gap_level_to_reach,practice_name,practice_explanation,satisfied_practice_explanation
+utility,accuracy,1,compare with a baseline,"Provide a comparison with a baseline or validate inputs, based on what is missing.","Input data are validated <em>or</em> the model is compared against a simple baseline."
+utility,accuracy,0,input data validation,"Provide a comparison with a baseline or validate inputs, based on what is missing","Input data are validated <em>or</em> the model is compared against a simple baseline."
+utility,effectiveness,1,AB test all model changes,Run a superiority AB experiment to evaluate the effectiveness,The ML system is fullon
+utility,effectiveness,0,AB test all model changes,Run a superiority AB experiment to evaluate the effectiveness,The ML system is fullon
+utility,responsiveness,0,Latency and Throughput are measured and requirements are defined,Establish latency and throughput requirements,Latency/Throughput requirements are known
+economy,cost_effectiveness,0,AB test all model changes,Make sure the gains from the model are larger than the costs though AB testing,The gains from the ML system are larger than its costs.
+economy,efficiency,1,optimize technical resources for training and inference,Automate basic model operations through Continuous Integration and Delivery (CI/CD),Basic operations are automated
+economy,efficiency,0,optimize technical resources for training and inference,Optimize technical resources for training and inference. You can request an ML system brainstorm to get ideas on how to optimize further,Basic operations are automated
+robustness,availability,0,Deploy the model in a highly available & scalable serving system,Deploy the model in a highly available & scalable serving system,The model is deployed in a highly available serving system.
+robustness,resilience,1,Reduce data dependencies,"Reduce or remove unnecessary data dependencies to decrease the system's failures per quarter to at most 5.","The ML system's failures per quarter are less than 5."
+robustness,resilience,0,Reduce data dependencies,"Reduce or remove unnecessary data dependencies to decrease the system's failures per quarter to at most 1.","The ML system's failures per quarter are less than 5."
+robustness,adaptability,1,keep model up to date by feeding with new labelled data points,Retrain the model (even manually) or use an adaptive model architecture,"The ML system is (even partially) adaptable."
+robustness,adaptability,0,keep model up to date by feeding with new labelled data points,Retrain the model automatically or use an adaptive model architecture,"The ML system is (even partially) adaptable."
+robustness,scalability,0,Deploy the model in a highly available & scalable serving system,Deploy the model in a highly available & scalable serving system,The ML system is deployed in a scalable serving system.
+modifiability,maintainability,1,code versioning,Version the code using Git, Code is versioned using Git
+modifiability,maintainability,0,The code has a unified style (like PEP8),Write the code with a unified style (like PEP8),The code has a unified code style.
+modifiability,modularity,1,code modularity and reusability,Split the code into modular functions (even partially,The code is (even partially) modular.
+modifiability,modularity,0,code modularity and reusability,Split the code into modular functionality,The code is (even partially) modular.
+modifiability,testability,1,automated tests,Test at least 20% of the ML system's source code,At least 20% of the source code is tested.
+modifiability,testability,0,automated tests,Test at least 50% of the ML system's source code,At least 20% of the source code is tested.
+productionizability,repeatability,1,automate the ML lifecycle,Automate the repetition of the ML lifecycle even partially.,The ML lifecycle is automated (even partially).
+productionizability,repeatability,0,automate the ML lifecycle,Fully automate the repetition of the ML lifecycle,The ML lifecycle is automated (even partially).
+productionizability,operability,1,"Deploy the model in a highly available & scalable serving system",Enable model deployment using a serving system,The model is deployed in a serving system.
+productionizability,operability,0,"Deploy the model in a serving system where it can be managed (disabled - uploaded - reverted)","Deploy the model in a serving system where it can be managed (disabled, uploaded, reverted)","The model deployment can be disabled, uploaded, reverted."
+productionizability,monitoring,1,model performance monitoring,Monitor ML performance metrics,ML Performance is being monitored.
+productionizability,monitoring,0,monitor feature drift,Monitor features and business metrics,Feature drift is being monitored.
+comprehensibility,discoverability,0,Register the system in a centralized ML registry (e.g. ML Portal),Register the system in a centralized ML registry,The ML system is registered in the ML Portal.
+comprehensibility,readability,1,"Variables - functions - classes have human readable and clear naming","Variables, functions, classes have human readable and clear naming","Variables, functions, classes have clear naming."
+comprehensibility,readability,0,"The code has a unified style (like PEP8)",Write the code with a unified style (like PEP8),The code has a unified style (like PEP8)
+comprehensibility,traceability,1,logging of metadata and artifacts,Log metadata and artifacts (even partially),Metadata and artifacts are logged (even partially).
+comprehensibility,traceability,0,logging of metadata and artifacts,"Fully log metadata and artifacts, using logging tools such as MLFlow or Weights And Biases",Metadata and artifacts are logged (even partially).
+comprehensibility,understandability,1,documentation,Document important information about the ML system and its development (even partially),The ML system has (even partial) documentation.
+comprehensibility,understandability,0,documentation,Fully document important information about the ML system and its development,The ML system has (even partial) documentation.
+comprehensibility,usability,0,Deploy in an accessible serving system or store output in a table for consumption,Deploy in an accessible serving system or store output in a table for consumption,"The model's output can be accessed."
+responsibility,explainability,0,Use explainable models (such as linear) or explanation techniques like Shapley values or LIME,Use explainable models (such as linear) or explanation techniques like Shapley values or LIME whenever applicable.,"The ML system's predictions can be explained"
+responsibility,fairness,0,bias assessment,"Assess the differences in the prediction error of the ML system across sensitive variables (such as country) to detect any bias issues","The ML system is assessed for undesired biases"
+responsibility,ownership,0,ownership,"Make sure that the ML system has a clear owner, able and willing to maintain it.","The ML system has a team assigned as owner."
+responsibility,standards_compliance,0,Conduct a responsible AI risk assessment,Conduct a Responsible AI Risk assessment,"Compliance standards are known and met."
+responsibility,vulnerability,0,bot detection,Detect and filter out bots from training and production data.,"The ML system is not vulnerable."

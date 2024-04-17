@@ -1,0 +1,4 @@
+sub_characteristic,gap_value,url,reasoning,team_name,business_criticality
+accuracy,large,"""""","There is no comparison with a simple baseline, neither input data validation.",teamA,production_non_critical
+effectiveness,small,"""""","The model is fullon, but it was tested more than 6 months ago.",teamA,production_non_critical
+responsiveness,large,"""""",Latency/throughput requirements not known,teamA,production_non_critical

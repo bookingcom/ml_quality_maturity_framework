@@ -1,0 +1,26 @@
+sub_characteristic,gap_value,url,reasoning
+accuracy,large,,"There is no comparison with a simple baseline, neither input data validation."
+effectiveness,no,,The model is fullon: link.
+responsiveness,large,,Latency/throughput requirements not known
+usability,no,,"The model is deployed in a discoverable serving system (e.g.RS, AWS, etc): link."
+cost_effectiveness,no,,"The model is fullon: link., gains are larger than model's costs."
+efficiency,large,,
+availability,no,,"The model is deployed in a discoverable serving system (e.g.RS, AWS, etc): link."
+resilience,large,,There are more than 5 failures per quarter.
+adaptability,large,,The model cannot adapt to changes in the environment.
+scalability,no,,"The model is deployed in a discoverable serving system (e.g.RS, AWS, etc): link."
+maintainability,small,,"The code is versioned in Git, but its readability has room for improvement."
+modularity,large,,The model's code is non-modular or modularity has not been assessed.
+testability,large,,The source code is not unit-tested.
+repeatability,large,,Repeating the ML lifecycle is completely manual.
+operability,no,,"The model is deployed in a discoverable serving system (e.g.RS, AWS, etc): link."
+monitoring,large,,"There is no monitoring of ML performance, features, inputs, business metrics."
+discoverability,no,,"The model is deployed in a discoverable serving system (e.g.RS, AWS, etc): link."
+traceability,large,,Metadata and artifacts are not being logged.
+understandability,large,,No documentation of the ML system has been provided.
+explainability,large,,It is not possible to explain the model predictions.
+fairness,no,,Fairness requirement to be determined by the Risk Assessment Questionnaire.
+ownership,no,,The model is owned by team name.
+standards_compliance,no,,No applicable standards.
+vulnerability,no,,No user generated data or external data sources are consumed.
+readability,large,,"Readability is not assessed, or the code is not easily readable, functions/variables have non-human readable names."
