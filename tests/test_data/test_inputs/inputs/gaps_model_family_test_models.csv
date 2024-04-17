@@ -1,0 +1,26 @@
+sub_characteristic,gap_value,reasoning
+accuracy,no,Model outperforms baseline by 3.7%
+effectiveness,no,Main business metric (autorate) is being monitored
+responsiveness,no,"Model is effective, so it is responsive"
+usability,no,Model available through the review moderation service
+cost_effectiveness,no,"Model is profitable, costs are relatively low"
+efficiency,no,No heavy resource requirements
+availability,no,Model in RS
+resilience,no,No issues so far
+adaptability,no,No re-training in place
+scalability,no,Model deployed in RS
+maintainability,no,"Code is modular, tested, readable"
+modularity,no,Code is split in functions/classes and each one is quite modular.
+testability,no,
+repeatability,no,Requires manual steps
+operability,no,Model in RS
+monitoring,no,
+discoverability,no,Model in RS
+readability,no,"Readable variable/function/class names, modular code, unified code style"
+traceability,no,Partial logging of metadata and artifacts
+understandability,no,
+explainability,no,There has been an analysis explaining the model's predictions
+fairness,no,No Fairness issues in this use case
+ownership,no,"Model in RS, owned by Review moderation team"
+standards_compliance,no,PII schema is being used
+vulnerability,no,No vulnerability checks (you can setup SonarQube for this)

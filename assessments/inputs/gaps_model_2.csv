@@ -1,0 +1,26 @@
+sub_characteristic,gap_value,reasoning
+accuracy,no,The model is almost on par with the baseline with lower cost
+effectiveness,small,"The model is fullon, but it was tested more than 6 months ago."
+responsiveness,no,Latency/throughput requirements are known and met (or the model is offline)
+usability,no,The model is deployed in a discoverable serving system
+cost_effectiveness,no,"The model is fullon: not applicable, gains are larger than model's costs"
+efficiency,no,"Basic model operations are automated, inference is optimized"
+availability,no,The model is deployed in a discoverable serving system
+resilience,no,There are at most 1 system failure per quarter
+adaptability,small,The model is partially adaptable
+scalability,no,The model is deployed in a discoverable serving system
+maintainability,no,The code is versioned and readable.
+modularity,no,The code is modular.
+testability,large,The source code is not unit-tested
+repeatability,large,Repeating the ML lifecycle is completely manual
+operability,small,The model is deployed but cannot be reverted back to a previous version.
+monitoring,small,There is some service health monitoring but it can be improved
+discoverability,no,The model is deployed in a discoverable serving system
+traceability,no,Metadata and artifacts are fully logged.
+understandability,no,The provided documentation is complete
+explainability,no,"Explainability techniques like Shap or Lime are not applicable for sequence to sequence models."
+fairness,no,Fairness requirement to be determined by the Risk Assessment Questionnaire. No requirement for now
+ownership,no,The model is owned by machine_translation
+standards_compliance,no,No applicable standards
+vulnerability,no,"There is some input data validation happening, and the input sentences are first moderated"
+readability,no,Naming is human readable and there is unified code style.

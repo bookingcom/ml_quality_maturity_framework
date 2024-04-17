@@ -1,0 +1,10 @@
+allowed_gap,gap_value,flag
+no,no,green
+small,no,green
+large,no,green
+no,small,orange
+small,small,orange
+large,small,white
+no,large,red
+small,large,red
+large,large,yellow
