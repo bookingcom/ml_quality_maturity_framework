@@ -10,7 +10,6 @@ Initialization of this class involves parsing a `.csv` file containing technical
 * The file `assessment_automation.py` is dedicated to inferring the gaps present in a model based on data extracted from the ML registry. 
 The ML registry serves as a database housing pertinent information regarding the models under analysis.
 
-
 * The file `report_automation.py`, provides utilities for automating the generation of multiple reports, 
 as well as the aggregation of historical evaluation data into a single dataset.
 
@@ -19,7 +18,7 @@ to be applied in addressing identified technical gaps.
 
 ### Set up the environment and run the tests
 To verify the functionality of the repository, create a Python virtual environment, following the instructions below.
-The package was tested using `python3.9`
+The package was tested using `python3.9`.
 
 ```
 python -m ensurepip --upgrade  # Make sure you have pip installed
@@ -39,6 +38,18 @@ To run the notebook first create a Jupyter kernel from the virtual environment:
 python -m ipykernel install --user --name=venv
 jupyter notebook
 ```
+
+#### Automation levels
+When generating a quality report, we provide 2 levels of automation with different requirements: 
+- **Semi-automated**: This method requires gathering the ML system's quality information through a Google form, using the 
+questions specified in [quality_assessment_form.md](quality_assessment_form.md) and manually converting them into
+technical gaps using the quality assessment requirements. The gaps should be stored in a `csv` 
+file ([example](assessments/inputs/gaps_model_1.csv)). The quality report can then be created following the instructions
+in the `create_quality_report.ipynb` notebook.
+- **Fully-automated**: This method requires a registry with the ML systems' metadata. Using the function 
+`infer_gaps_from_registry_metadata` in [assessment_automation.py](ml_quality/assessment_automation.py) one can 
+generate the technical gaps `csv` file with no human intervention, leveraging the information from the registry. The 
+quality report is then generated automatically as shown in the `create_quality_report.ipynb` notebook.
 
 ### Generate multiple reports from a list of models with technical gaps
 To generate multiple reports for a list of models, utilize the script `create_reports.py`. The script generates reports for all models listed in `models_to_assess.csv`.\
