@@ -56,13 +56,13 @@ Below we provide examples of full quality reports from assessed systems, using t
 
 The images below show an example of a report for a fully mature system. No technical gaps are present, 
 all the fulfilled quality attributes are listed in green.
-![Fully mature system - report page 1](images/report_100_1.pdf)
-![Fully mature system - report page 2](images/report_100_2.pdf)
+![Fully mature system - report page 1](images/report_100_1.png)
+![Fully mature system - report page 2](images/report_100_2.png)
 
 
 Example of a report for a system of maturity level 1 is provided below. The gaps to be fulfilled to pass to the next 
 maturity level are shown in red. The quality attributes to be fulfilled for the subsequent maturity levels are shown in 
 orange. Below each quality attribute the user can see both the motivation of a certain technical gap and a 
 recommendation to remove it.
-![Level 1 system - report page 1](images/report_84_1.pdf)
-![Level 1 system - report page 2](images/report_84_2.pdf)
+![Level 1 system - report page 1](images/report_84_1.png)
+![Level 1 system - report page 2](images/report_84_2.png)
