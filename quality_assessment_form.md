@@ -23,7 +23,7 @@ This file contains the questions used to initially assessed the ML models techin
 9. Are there other teams or departments besides yours relying on this model?
 
 10. What might be the consequences of disabling the model in production? Does this pose an existential risk to the
-    Booking.com business?
+     business?
 
 11. Is the model being tested in an experiment (provide relevant link)?
 

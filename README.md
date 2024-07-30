@@ -1,6 +1,6 @@
 # Machine Learning Quality and Maturity Package
 
-This repository houses the Machine Learning (ML) Quality and Maturity Framework package developed at Booking.com.\
+This repository houses the Machine Learning (ML) Quality and Maturity Framework package.\
 The structure of the repository is delineated as follows:
 
 * The primary class, located in `assessments.py`, serves the function of generating the final quality and maturity score.\
