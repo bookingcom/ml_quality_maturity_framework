@@ -30,6 +30,12 @@ pip install -r requirements.txt
 To verify everything is working properly you can run the test suite of the package.\
 You can do this by typing `tox` from the package root directory.
 
+#### wkhtmltopdf dependency
+
+In case wkhtmltopdf is missing, install as follows:
+ - MacOS: `brew install Caskroom/cask/wkhtmltopdf`
+ - Linux: `sudo apt install -y wkhtmltopdf`
+
 ### Generate a quality report
 To generate a quality and maturity report, follow the example provided in the `create_quality_report.ipynb` notebook.
 To run the notebook first create a Jupyter kernel from the virtual environment:
