@@ -14,7 +14,7 @@ BUSINESS_CRITICALITY_HTML = dict(
     poc="proof of concept", production_non_critical="production non-critical", production_critical="production critical"
 )
 
-SUB_EXPLANATION_URL = "https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#"
+SUB_EXPLANATION_URL = ""
 
 MATURITY_LEVELS_URL = ""
 
@@ -35,7 +35,7 @@ REPORTS_FOLDER = "ml_quality_reports"
 PLOTS_FOLDER = "ml_quality_plots"
 ALL_MODELS_SUMMARY_FOLDER = "all_models_summary"
 RADAR_CHART_NAME_SUFFIX = "radar_chart"
-GIT_REPO_URL = "https://github.com/bookingcom/ml_quality_maturity_framework"
+GIT_REPO_URL = ""
 ASSESSMENTS_URL = f"{GIT_REPO_URL}/ml_quality/assessments"
 ALLOWED_IMAGE_FORMATS = ["png", "jpeg", "jpg"]
 DATE_FORMAT = "%Y-%m-%d"

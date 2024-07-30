@@ -12,8 +12,8 @@ version = re.search(r"^__version__ = \"(.+)\"$", version_content, flags=re.MULTI
 setuptools.setup(
     name='ml_quality',
     version=version,
-    author=["Antonio Castelli", "George Chouliaras"],
-    author_email=["antonio.castelli@booking.com", "georgios.chouliaras@booking.com"],
+    author=["anonymous author"],
+    author_email=[""],
     description="Python tools to perform assessment on quality of ML systems",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -21,7 +21,6 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=["tests"]),
     classifiers=[
          "Programming Language :: Python :: 3",
-         "License :: All Rights Reserved by Booking.com",
          "Operating System :: OS Independent",
      ],
     install_requires=["plotly>=5.5.0", "kaleido", "pandas", "numpy", "aenum", "pdfkit"],

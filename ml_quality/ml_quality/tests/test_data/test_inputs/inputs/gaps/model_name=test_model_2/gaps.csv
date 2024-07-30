@@ -1,26 +1,26 @@
 sub_characteristic,gap_value,url,reasoning,team_name,business_criticality,model_family
-accuracy,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#accuracy,"There is no comparison with a simple baseline, neither input data validation.",team_B,poc,model_family_b
-effectiveness,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#effectiveness,There is no full-on experiment associated with the model.,team_B,poc,model_family_b
-responsiveness,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#responsiveness,Latency/throughput requirements not known,team_B,poc,model_family_b
-usability,no,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#usability,"The model is deployed in a discoverable serving system (e.g. AWS, etc)",team_B,poc,model_family_b
-cost_effectiveness,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#cost-effectiveness,There is no full-on experiment associated with the model.,team_B,poc,model_family_b
-efficiency,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#efficiency,"",Tech Content Agency,poc,model_family_b
-availability,no,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#availability,"The model is deployed in a discoverable serving system (e.g. AWS, etc)",team_B,poc,model_family_b
-resilience,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#resilience,There are more than 5 failures per quarter.,team_B,poc,model_family_b
-adaptability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#adaptability,The model cannot adapt to changes in the environment.,team_B,poc,model_family_b
-scalability,no,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#scalability,"The model is deployed in a discoverable serving system (e.g. AWS, etc)",team_B,poc,model_family_b
-maintainability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#maintainability,The model's source code is not versioned or repository link has not been provided.,team_B,poc,model_family_b
-modularity,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#modularity,The model's code is non-modular or modularity has not been assessed.,team_B,poc,model_family_b
-testability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#testability,The source code is not unit-tested.,team_B,poc,model_family_b
-repeatability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#repeatability,Repeating the ML lifecycle is completely manual.,team_B,poc,model_family_b
-operability,no,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#operability,"The model is deployed in a discoverable serving system (e.g. AWS, etc)"team_B,poc,model_family_b
-monitoring,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#monitoring,"There is no monitoring of ML performance, features, inputs, business metrics.",team_B,poc,model_family_b
-discoverability,no,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#discoverability,"The model is deployed in a discoverable serving system (e.g. AWS, etc).",team_B,poc,model_family_b
-traceability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#traceability,Metadata and artifacts are not being logged.,team_B,poc,model_family_b
-understandability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#understandability,No documentation of the ML system has been provided.,team_B,poc,model_family_b
-explainability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#explainability,It is not possible to explain the model predictions.,team_B,poc,model_family_b
-fairness,no,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#fairness,Fairness requirement to be determined by the Risk Assessment Questionnaire. No requirement for now.,team_B,poc,model_family_b
-ownership,no,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#ownership,The model is owned by Team B.,team_B,poc,model_family_b
-standards_compliance,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#standards-compliance,Applicable standards are not known or the model does not comply with them.,team_B,poc,model_family_b
-vulnerability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#vulnerability,"",team_B,poc,model_family_b
-readability,large,https://github.com/bookingcom/ml-quality-model/blob/master/docs/subcharacteristics.md#readability,"Readability is not assessed, or the code is not easily readable, functions/variables have non-human readable names.",team_B,poc,model_family_b
+accuracy,large,,"There is no comparison with a simple baseline, neither input data validation.",team_B,poc,model_family_b
+effectiveness,large,,There is no full-on experiment associated with the model.,team_B,poc,model_family_b
+responsiveness,large,,Latency/throughput requirements not known,team_B,poc,model_family_b
+usability,no,,"The model is deployed in a discoverable serving system (e.g. AWS, etc)",team_B,poc,model_family_b
+cost_effectiveness,large,,There is no full-on experiment associated with the model.,team_B,poc,model_family_b
+efficiency,large,,"",Tech Content Agency,poc,model_family_b
+availability,no,,"The model is deployed in a discoverable serving system (e.g. AWS, etc)",team_B,poc,model_family_b
+resilience,large,,There are more than 5 failures per quarter.,team_B,poc,model_family_b
+adaptability,large,,The model cannot adapt to changes in the environment.,team_B,poc,model_family_b
+scalability,no,,"The model is deployed in a discoverable serving system (e.g. AWS, etc)",team_B,poc,model_family_b
+maintainability,large,,The model's source code is not versioned or repository link has not been provided.,team_B,poc,model_family_b
+modularity,large,,The model's code is non-modular or modularity has not been assessed.,team_B,poc,model_family_b
+testability,large,,The source code is not unit-tested.,team_B,poc,model_family_b
+repeatability,large,,Repeating the ML lifecycle is completely manual.,team_B,poc,model_family_b
+operability,no,,"The model is deployed in a discoverable serving system (e.g. AWS, etc)"team_B,poc,model_family_b
+monitoring,large,,"There is no monitoring of ML performance, features, inputs, business metrics.",team_B,poc,model_family_b
+discoverability,no,,"The model is deployed in a discoverable serving system (e.g. AWS, etc).",team_B,poc,model_family_b
+traceability,large,,Metadata and artifacts are not being logged.,team_B,poc,model_family_b
+understandability,large,,No documentation of the ML system has been provided.,team_B,poc,model_family_b
+explainability,large,,It is not possible to explain the model predictions.,team_B,poc,model_family_b
+fairness,no,,Fairness requirement to be determined by the Risk Assessment Questionnaire. No requirement for now.,team_B,poc,model_family_b
+ownership,no,,The model is owned by Team B.,team_B,poc,model_family_b
+standards_compliance,large,,Applicable standards are not known or the model does not comply with them.,team_B,poc,model_family_b
+vulnerability,large,,"",team_B,poc,model_family_b
+readability,large,,"Readability is not assessed, or the code is not easily readable, functions/variables have non-human readable names.",team_B,poc,model_family_b
