@@ -41,6 +41,7 @@ To generate a quality and maturity report, follow the example provided in the `c
 To run the notebook first create a Jupyter kernel from the virtual environment:
 
 ```
+pip install ipykernel
 python -m ipykernel install --user --name=venv
 jupyter notebook
 ```
