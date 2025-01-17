@@ -18,7 +18,7 @@ to be applied in addressing identified technical gaps.
 
 ### Set up the environment and run the tests
 To verify the functionality of the repository, create a Python virtual environment, following the instructions below.
-The package was tested using `python3.9`.
+The package was tested using `python3.11`.
 
 ```
 python -m ensurepip --upgrade  # Make sure you have pip installed
