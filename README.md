@@ -88,8 +88,8 @@ recommendation to remove it.
 
 ## Reconstruct quality improvements from past assessments
 Each evaluation produces a report in .html and .pdf format but also a `summary.csv` which stores the 
-evaluation input for full reproducibility. These can also be used to re-build historical information
+evaluation input for full reproducibility. 
+We uploaded a set of anonymized summary reports from Booking.com for you to play with
+in `assessments/example_booking_reports_summary`. These can be used to re-build historical information
 as shown in the notebook `notebooks/monitor_historical_progress.ipynb` and obtain granular information
 at sub-characteristic level.
-We uploaded in the data a set of anonymized summary reports from Booking.com to give an example of how
-to create a plot with quality and maturity improvement per iteration. 
