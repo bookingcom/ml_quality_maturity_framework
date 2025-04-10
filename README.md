@@ -84,3 +84,12 @@ orange. Below each quality attribute the user can see both the motivation of a c
 recommendation to remove it.
 ![Level 1 system - report page 1](images/report_84_1.png)
 ![Level 1 system - report page 2](images/report_84_2.png)
+
+
+## Reconstruct quality improvements from past assessments
+Each evaluation produces a report in .html and .pdf format but also a `summary.csv` which stores the 
+evaluation input for full reproducibility. 
+We uploaded a set of anonymized summary reports from Booking.com `assessments/example_booking_reports_summary` 
+for you to familiarize with the framework. These summaries can be used to re-build historical information
+as shown in the notebook `notebooks/monitor_historical_progress.ipynb` and obtain granular information
+at the quality sub-characteristic level.
